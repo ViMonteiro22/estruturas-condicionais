@@ -1,5 +1,5 @@
 
-public class EstruturasCondicionais {
+public class EstruturasCondicionais01 {
     public static void main(String[] args) {
 
         int idade = 15;
@@ -9,6 +9,8 @@ public class EstruturasCondicionais {
 
         if (isAutorizadoComprarBebida) {
             System.out.println("Você pode comprar bebida alcoólica!");
+        } else {
+            System.out.println("Você não pode comprar bebida alcoólica!");
         }
 
         // ! (NEGAÇÃO)
