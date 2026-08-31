@@ -7,7 +7,9 @@ public class EstruturasCondicionais03 {
         String mensagemDoar = "Vou doar 500 pro DevDojo, pois ele merece";
         String mensagemNaoDoar = "Não consigo doar ainda, preciso virar engenheira de software";
 
+        // operador tenário
         // (condicao) ? verdadeiro : falso
+
         String resultado = salario >= 5000 ? mensagemDoar : mensagemNaoDoar;
 
 
